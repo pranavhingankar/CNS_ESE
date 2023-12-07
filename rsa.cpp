@@ -1,14 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void file()
-{
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-}
-
 // Function for extended Euclidean Algorithm
 int ansS, ansT;
 int findGcdExtended(int r1, int r2, int s1, int s2, int t1, int t2)
@@ -73,7 +65,6 @@ int findGCD(int num1, int num2)
 // Code to demonstrate RSA algorithm
 int main()
 {
-    // file();
 
     // Two random prime numbers
     long long p, q, e, msg;

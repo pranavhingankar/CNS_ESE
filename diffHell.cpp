@@ -1,14 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void file()
-{
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-}
-
 long long powM(long long a, long long b, long long n)
 {
     if (b == 1)
@@ -37,7 +29,7 @@ bool checkPrimitiveRoot(long long alpha, long long q)
 
 int main()
 {
-    file();
+    // file();
     long long q, alpha;
 
     q = 71;    // A prime number q is taken
@@ -50,7 +42,7 @@ int main()
     }
     else
     {
-        cout << alpha << " is private root of " << q << endl;
+        cout << alpha << " is primitive root of " << q << endl;
     }
 
     long long xa, ya;
